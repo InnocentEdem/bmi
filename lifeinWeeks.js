@@ -6,4 +6,3 @@ let lifeInWeeks = (age) =>{
     return `You have ${daysLeft} days, ${weeksLeft} weeks,
     and ${monthsLeft} months left.`
 }
-console.log(lifeInWeeks(56));
