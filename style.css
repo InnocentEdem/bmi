@@ -82,6 +82,10 @@ button:hover{
 #text{
     display: none;
 }
+.imgr{
+    display: none;
+}
+
 @media screen and (max-width: 1000px) {
    .container{
     width: 50vw;
@@ -108,5 +112,4 @@ button:hover{
 .result{
     font-size: 1.5vw;
 }
-
-  }
+}
