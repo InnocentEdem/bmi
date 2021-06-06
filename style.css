@@ -99,13 +99,17 @@ label{
     width: 90%;
     height: 100%;
     text-align: center;
-    margin: 3vw;
+    margin:5%;
     
    }
    .result{
        position: static;
        text-align: center;
-       margin-left: 30%;
+       margin: 10% 10% ;
+       width:80% ;
+       height: auto;
+       min-height: 50vw;
+
    }
    .enter-button{
        margin: 10px;
@@ -121,9 +125,9 @@ label{
     text-align: center;
 }
     .result{
-        font-size: 1.5vw;
-        margin-left: 39%;
-        margin-bottom: 10px;
+        font-size: 5vw;
+        
+       
     }
     input{
         width:98%;
