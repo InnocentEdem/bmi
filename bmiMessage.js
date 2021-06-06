@@ -22,6 +22,7 @@ let bmi=()=>{
             image.style.display='none';
         });
         resultText.style.display = 'block';
+        resultText.style.backgroundColor = 'rgb(65, 105, 225, 1)'
         resultText.innerHTML = "Invalid Weight / Height !  Try again...";
         return ;
     }
