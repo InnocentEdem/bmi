@@ -29,6 +29,7 @@
 }
 .height, .weight{
     margin:50px;
+   
 }
 .result{
     border: solid 1px rgb(65, 105, 225, 0.1);
@@ -85,13 +86,21 @@ button:hover{
 .imgr{
     display: none;
 }
+label{
+    display: none;
+}
 
 @media screen and (max-width: 1000px) {
-   .container{
-    width: 50vw;
-    height: 70vw;text-align: center;
+  
+    *{
+        overflow: auto;
+    }
+    .container{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin: 3vw;
     
-    position: static;
    }
    .result{
        position: static;
@@ -103,13 +112,28 @@ button:hover{
       
        text-align: center;
    }
+   
    .height, .weight{
     margin:10px;
-    
+    white-space: nowrap;
+    font-size: 3vw;
     padding:1px;
     text-align: center;
 }
-.result{
-    font-size: 1.5vw;
-}
+    .result{
+        font-size: 1.5vw;
+        margin-left: 39%;
+        margin-bottom: 10px;
+    }
+    input{
+        width:98%;
+        max-width: 20vw;
+    }
+    label{
+        display: block;
+    }
+    .header{
+        font-size: 5vw;
+        text-align: center;
+    }
 }
